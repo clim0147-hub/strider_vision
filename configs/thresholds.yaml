@@ -1,0 +1,6 @@
+uneven_mm: [15, 25]
+curb_mm:   [25, 60]
+step_mm:   [60, 200]
+max_bearing_deg: 25
+min_confidence: 0.35
+assumed_walk_speed_mps: 1.2
