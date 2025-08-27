@@ -1,6 +1,7 @@
-uneven_mm: [15, 25]
-curb_mm:   [25, 60]
-step_mm:   [60, 200]
-max_bearing_deg: 25
-min_confidence: 0.35
+# configs/thresholds.yaml
+uneven_mm: [20, 30]     # small bumps/roughness
+curb_mm:   [30, 70]     # curb-sized changes
+step_mm:   [50, 200]    # stairs/steps
+max_bearing_deg: 25     # half-FOV for forward cone
+min_confidence: 0.40
 assumed_walk_speed_mps: 1.2
