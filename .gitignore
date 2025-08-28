@@ -1,0 +1,52 @@
+# Ignore Python cache & virtual env
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore datasets / raw video
+data/*.mp4
+data/*.avi
+*.zip
+*.tar
+*.gz
+
+# Ignore model outputs & training runs
+runs/
+out/
+*.onnx
+*.pt
+
+# Allow specific model weights if needed
+!models/*.onnx
+!models/*.pt
+
+# Ignore Jupyter/IPython checkpoints
+.ipynb_checkpoints/
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Outputs & training runs
+out/
+runs/
+
+# Videos / raw media
+*.mp4
+*.avi
+data/*.mp4
+
+# Logs & junk
+*.log
+__pycache__/
+.venv/
+
